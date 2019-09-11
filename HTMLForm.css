@@ -1,0 +1,73 @@
+* {
+	font-family: -apple-system, sans-serif;
+	align-items: center;
+}
+
+
+p {
+	text-align: center;
+}
+
+
+header {
+	text-align: center;
+}
+
+.card {
+	display: flex;
+	color: black;
+	text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.3s;
+    border-radius: 10px; 
+	padding: 30px;
+    width: 31%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);
+}
+
+
+
+.container {
+  padding: 25px;
+  justify-content: center;
+}
+
+ 
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #d9d9d9;
+  border-radius: 5px;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.btn {
+  background: #bdc3c7;  
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
